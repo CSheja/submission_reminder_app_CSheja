@@ -11,5 +11,6 @@ sed -i "s/^ASSIGNMENT=.*/ASSIGNMENT=\"$new_assignment\"/" config/config.env
 
 echo "Assignment changed to $new_assignment"
 
-./startup.sh
+/submission_reminder_Sheja/startup.sh
+
 
